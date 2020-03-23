@@ -49,3 +49,19 @@ Activity.destroy_all
     )
     end
 
+    response2 = RestClient.get(
+        "https://wger.de/api/v2/exercise.json?status=2&language=2&is_main=True")
+ 
+    result2 = JSON.parse(response2)
+     result2['results'].each do |exercise|
+         
+     Activity.create(
+         
+         name: exercise['name'], 
+         description: exercise['description'],
+         activity_type: "Exercise",
+         resource: "",
+         image: "https://aptv.org/ulphoto/wpt_1389287397.jpg"
+     )
+     end
+
