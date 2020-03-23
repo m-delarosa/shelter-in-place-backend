@@ -507,3 +507,230 @@ Processing by ActivitiesController#index as HTML
 Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 1.6ms | Allocations: 4474)
 
 
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[36mActivity Load (1.3ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.6ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 32]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.7ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 33]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.9ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 34]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.6ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 35]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (1.6ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 36]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (1.0ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 37]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (1.4ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 38]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.9ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 39]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.7ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 40]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (1.7ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 41]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.6ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 42]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.5ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 43]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.5ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 44]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.5ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 45]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.5ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 46]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.5ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 47]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.9ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 48]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.9ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 49]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.6ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 50]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Destroy (0.8ms)[0m  [1m[31mDELETE FROM "activities" WHERE "activities"."id" = ?[0m  [["id", 51]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (2.2ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Ad Astra"], ["description", "The near future, a time when both hope and hardships drive humanity to look to the stars and beyond. While a mysterious phenomenon menaces to destroy life on planet Earth, astronaut Roy McBride undertakes a mission across the immensity of space and its many perils to uncover the truth about a lost expedition that decades before boldly faced emptiness and silence in search of the unknown."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/xBHvZcjRiWyobQ9kxBhO6B2dtRI.jpg"], ["created_at", "2020-03-23 21:40:41.360153"], ["updated_at", "2020-03-23 21:40:41.360153"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.8ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Star Wars: The Rise of Skywalker"], ["description", "The surviving Resistance faces the First Order once again as the journey of Rey, Finn and Poe Dameron continues. With the power and knowledge of generations behind them, the final battle begins."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/db32LaOibwEliAmSL2jjDF6oDdj.jpg"], ["created_at", "2020-03-23 21:40:41.369028"], ["updated_at", "2020-03-23 21:40:41.369028"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (1.1ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "The Invisible Man"], ["description", "When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/4U7hpTK0XTQBKT5X60bKmJd05ha.jpg"], ["created_at", "2020-03-23 21:40:41.375853"], ["updated_at", "2020-03-23 21:40:41.375853"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.9ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bloodshot"], ["description", "After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman, biotech killing machine - Bloodshot. As Ray first trains with fellow super-soldiers, he cannot recall anything from his former life. But when his memories flood back and he remembers the man that killed both him and his wife, he breaks out of the facility to get revenge, only to discover that there's more to the conspiracy than he thought."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/8WUVHemHFH2ZIP6NWkwlHWsyrEL.jpg"], ["created_at", "2020-03-23 21:40:41.386511"], ["updated_at", "2020-03-23 21:40:41.386511"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.7ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Jumanji: The Next Level"], ["description", "As the gang return to Jumanji to rescue one of their own, they discover that nothing is as they expect. The players will have to brave parts unknown and unexplored in order to escape the world’s most dangerous game."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/bB42KDdfWkOvmzmYkmK58ZlCa9P.jpg"], ["created_at", "2020-03-23 21:40:41.396200"], ["updated_at", "2020-03-23 21:40:41.396200"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.8ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "A Rainy Day in New York"], ["description", "Two young people arrive in New York to spend a weekend, but once they arrive they're met with bad weather and a series of adventures."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/z4A6mFOLTMZAhCSPRyrtzG0SPbd.jpg"], ["created_at", "2020-03-23 21:40:41.403155"], ["updated_at", "2020-03-23 21:40:41.403155"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.9ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Contagion"], ["description", "As an epidemic of a lethal airborne virus - that kills within days - rapidly grows, the worldwide medical community races to find a cure and control the panic that spreads faster than the virus itself."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/kbC6I0AOSLTHFA2dieyat9h8QHP.jpg"], ["created_at", "2020-03-23 21:40:41.409959"], ["updated_at", "2020-03-23 21:40:41.409959"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.7ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Sonic the Hedgehog"], ["description", "Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg"], ["created_at", "2020-03-23 21:40:41.418165"], ["updated_at", "2020-03-23 21:40:41.418165"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Birds of Prey (and the Fantabulous Emancipation of One Harley Quinn)"], ["description", "After her breakup with the Joker, Harley Quinn joins forces with singer Black Canary, assassin Huntress, and police detective Renee Montoya to help a young girl named Cassandra, who had a hit placed on her after she stole a rare diamond from crime lord Roman Sionis."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/h4VB6m0RwcicVEZvzftYZyKXs6K.jpg"], ["created_at", "2020-03-23 21:40:41.424874"], ["updated_at", "2020-03-23 21:40:41.424874"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.7ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Kannum Kannum Kollaiyadithaal"], ["description", "Siddarth falls head-over-heels in love with Meera but things take a risky turn when they get into a messy situation with a dangerous man."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/iaTW57RK87v7ZrGkLKVofNH9YOr.jpg"], ["created_at", "2020-03-23 21:40:41.432494"], ["updated_at", "2020-03-23 21:40:41.432494"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Frozen II"], ["description", "Elsa, Anna, Kristoff and Olaf head far into the forest to learn the truth about an ancient mystery of their kingdom."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/pjeMs3yqRmFL3giJy4PMXWZTTPa.jpg"], ["created_at", "2020-03-23 21:40:41.441368"], ["updated_at", "2020-03-23 21:40:41.441368"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Onward"], ["description", "In a suburban fantasy world, two teenage elf brothers embark on an extraordinary quest to discover if there is still a little magic left out there."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/f4aul3FyD3jv3v4bul1IrkWZvzq.jpg"], ["created_at", "2020-03-23 21:40:41.479541"], ["updated_at", "2020-03-23 21:40:41.479541"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.8ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "F#*@BOIS"], ["description", "Ace, 23, and Miko, 17, desperately want to become famous actors but it seems the Universe has a different plan for their lives."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/hjOX3eTRR37WdsTMXOcD0gF9BA7.jpg"], ["created_at", "2020-03-23 21:40:41.487968"], ["updated_at", "2020-03-23 21:40:41.487968"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Joker"], ["description", "During the 1980s, a failed stand-up comedian is driven insane and turns to a life of crime and chaos in Gotham City while becoming an infamous psychopathic crime figure."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/udDclJoHjfjb8Ekgsd4FDteOkCU.jpg"], ["created_at", "2020-03-23 21:40:41.497435"], ["updated_at", "2020-03-23 21:40:41.497435"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "1917"], ["description", "At the height of the First World War, two young British soldiers must cross enemy territory and deliver a message that will stop a deadly attack on hundreds of soldiers."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/AuGiPiGMYMkSosOJ3BQjDEAiwtO.jpg"], ["created_at", "2020-03-23 21:40:41.505787"], ["updated_at", "2020-03-23 21:40:41.505787"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "The Hunt"], ["description", "Twelve strangers wake up in a clearing. They don't know where they are -- or how they got there. In the shadow of a dark internet conspiracy theory, ruthless elitists gather at a remote location to hunt humans for sport. But their master plan is about to be derailed when one of the hunted, Crystal, turns the tables on her pursuers."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/rmflsMjk4lxx2foNUtd1OKWv6vB.jpg"], ["created_at", "2020-03-23 21:40:41.513691"], ["updated_at", "2020-03-23 21:40:41.513691"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.8ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "xXx"], ["description", "Xander Cage is your standard adrenaline junkie with no fear and a lousy attitude. When the US Government \"recruits\" him to go on a mission, he's not exactly thrilled. His mission: to gather information on an organization that may just be planning the destruction of the world, led by the nihilistic Yorgi."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/86BnliVDBo2TjKmrgQTJIPHxAKd.jpg"], ["created_at", "2020-03-23 21:40:41.520231"], ["updated_at", "2020-03-23 21:40:41.520231"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Kamen Rider Zi-O NEXT TIME: Geiz, Majesty"], ["description", "Geiz, Majesty is the first installment of the Kamen Rider Zi-O NEXT TIME series of V-Cinema films for Kamen Rider Zi-O. It focuses on the character Geiz Myokoin."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/g0c40ySJ1zW8dVwuCETgJcl3q7c.jpg"], ["created_at", "2020-03-23 21:40:41.531811"], ["updated_at", "2020-03-23 21:40:41.531811"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Parasite"], ["description", "All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg"], ["created_at", "2020-03-23 21:40:41.539988"], ["updated_at", "2020-03-23 21:40:41.539988"]]
+  [1m[35m (1.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.8ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Knives Out"], ["description", "When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death."], ["activity_type", "Watch a Movie"], ["resource", ""], ["image", "https://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg"], ["created_at", "2020-03-23 21:40:41.548694"], ["updated_at", "2020-03-23 21:40:41.548694"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "2 Handed Kettlebell Swing"], ["description", "<p>Two Handed Russian Style Kettlebell swing</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.162428"], ["updated_at", "2020-03-23 21:40:43.162428"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Arnold Shoulder Press"], ["description", "<p>Very common shoulder exercise.</p>\n<p> </p>\n<p>As shown here: https://www.youtube.com/watch?v=vj2w851ZHRM</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.169472"], ["updated_at", "2020-03-23 21:40:43.169472"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.9ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Axe Hold"], ["description", "<p>Grab dumbbells and extend arms to side and hold as long as you can</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.176045"], ["updated_at", "2020-03-23 21:40:43.176045"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Barbell Ab Rollout"], ["description", "<p>Place a barbell on the floor at your feet.</p>\n<p>Bending at the waist, grip the barbell with a shoulder with overhand grip.</p>\n<p>With a slow controlled motion, roll the bar out so that your back is straight.</p>\n<p>Roll back up raising your hips and butt as you return to the starting position.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.182056"], ["updated_at", "2020-03-23 21:40:43.182056"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Barbell Hack Squats"], ["description", "<p>Perform leg squats with barbell behind your legs</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.189348"], ["updated_at", "2020-03-23 21:40:43.189348"]]
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Barbell Lunges"], ["description", "<p>Put barbell on the back of your shoulders. Stand upright, then take the first step forward. Step should bring you forward so that your supporting legs knee can touch the floor. Then stand back up and repeat with the other leg.</p>\n<p>Remember to keep good posture.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.201921"], ["updated_at", "2020-03-23 21:40:43.201921"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Barbell Triceps Extension"], ["description", "<p>Position barbell overhead with narrow overhand grip.</p>\n<p>Lower forearm behind upper arm with elbows remaining overhead. Extend forearm overhead. Lower and repeat.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.212278"], ["updated_at", "2020-03-23 21:40:43.212278"]]
+  [1m[35m (3.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bear Walk"], ["description", "<p>-Rest your weight on your palms and the balls of your feet, not dissimilar to normal pushup position</p>\n<p>-Move by stepping with your R palm and L foot, then your L palm and R foot.  Basically, walk like a lumbering bear.</p>\n<p>-Move as fast as you can.  Measure your reps/sets in either distance (i.e. 40 yards) or time (i.e. 45 seconds)</p>\n<p>-Works your Pecs, Deltoids, Triceps, Traps, Lats, Abs and Lower Back, Hip Flexors, Quads, Glutes and Calves</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.222414"], ["updated_at", "2020-03-23 21:40:43.222414"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (1.3ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bear Walk"], ["description", "<p>-Rest your weight on your palms and the balls of your feet, not dissimilar to normal pushup position</p>\n<p>-Move by stepping with your R palm and L foot, then your L palm and R foot.  Basically, walk like a lumbering bear.</p>\n<p>-Move as fast as you can.  Measure your reps/sets in either distance (i.e. 40 yards) or time (i.e. 45 seconds)</p>\n<p>-Works your Pecs, Deltoids, Triceps, Traps, Lats, Abs and Lower Back, Hip Flexors, Quads, Glutes and Calves</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.232145"], ["updated_at", "2020-03-23 21:40:43.232145"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bench Press"], ["description", "<p>Lay down on a bench, the bar should be directly above your eyes, the knees are somewhat angled and the feet are firmly on the floor. Concentrate, breath deeply and grab the bar more than shoulder wide. Bring it slowly down till it briefly touches your chest at the height of your nipples. Push the bar up.</p>\n<p>If you train with a high weight it is advisable to have a <em>spotter</em> that can help you up if you can't lift the weight on your own.</p>\n<p>With the width of the grip you can also control which part of the chest is trained more:</p>\n<ul>\n<li>wide grip: outer chest muscles</li>\n<li>narrow grip: inner chest muscles and triceps</li>\n</ul>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.243706"], ["updated_at", "2020-03-23 21:40:43.243706"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.8ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Benchpress Dumbbells"], ["description", "<p>The movement is very similar to benchpressing with a barbell, however, the weight is brought down to the chest at a lower point.</p>\n<p>Hold two dumbbells and lay down on a bench. Hold the weights next to the chest, at the height of your nipples and press them up till the arms are stretched. Let the weight slowly and controlled down.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.249673"], ["updated_at", "2020-03-23 21:40:43.249673"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.7ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bench Press Narrow Grip"], ["description", "<p>Lay down on a bench, the bar is directly over your eyes, the knees form a slight angle and the feet are firmly on the ground. Hold the bar with a narrow grip (around 20cm.). Lead the weight slowly down till the arms are parallel to the floor (elbow: right angle), press then the bar up. When bringing the bar down, don't let it down on your nipples as with the regular bench pressing, but somewhat lower.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.262132"], ["updated_at", "2020-03-23 21:40:43.262132"]]
+  [1m[35m (2.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.7ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bent High Pulls"], ["description", "<p>Bend over slightly while holding two dumbbells.  Pull the dumbbells up to your chest, keeping your elbows as high as you can.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.272481"], ["updated_at", "2020-03-23 21:40:43.272481"]]
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (1.2ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bent Over Barbell Row"], ["description", "<ol>\n<li>Holding a barbell with a pronated grip (palms facing down), bend your knees slightly and bring your torso forward, by bending at the waist, while keeping the back straight until it is almost parallel to the floor. Tip: Make sure that you keep the head up. The barbell should hang directly in front of you as your arms hang perpendicular to the floor and your torso. This is your starting position.</li>\n<li>Now, while keeping the torso stationary, breathe out and lift the barbell to you. Keep the elbows close to the body and only use the forearms to hold the weight. At the top contracted position, squeeze the back muscles and hold for a brief pause.</li>\n<li>Then inhale and slowly lower the barbell back to the starting position.</li>\n<li>Repeat for the recommended amount of repetitions.</li>\n</ol>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.290487"], ["updated_at", "2020-03-23 21:40:43.290487"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (3.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bentover Dumbbell Rows"], ["description", "<p>With dumbbells in hand, bend at the hip until hands hang just below the knees (similar to straight-legged-deadlift starting position). Keep upper body angle constant while contracting your lats to pull you ellbows back pinching the shoulder blades at the top. Try not to stand up with every rep, check hands go below knees on every rep.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.308006"], ["updated_at", "2020-03-23 21:40:43.308006"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (1.9ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bent-over Lateral Raises"], ["description", "<p>Sit on bench while holding weights. Bend forward as far as possible, with arms slightly bent at the elbow. Perform a lateral raise while maintaining the bend in your elbow.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.333772"], ["updated_at", "2020-03-23 21:40:43.333772"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (1.1ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bent Over Rowing"], ["description", "<p>Grab the barbell with a wide grip (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise.</p>\n<p>Pull now the barbell with a fast movement towards your belly button, not further up. Go slowly down to the initial position. Don't swing with your body and keep your arms next to your body.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.347875"], ["updated_at", "2020-03-23 21:40:43.347875"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.6ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Bent Over Rowing Reverse"], ["description", "<p>The same as <em>regular</em> rowing, but holding a reversed grip (your palms pointing forwards):</p>\n<p>Grab the barbell with a wide grIp (slightly more than shoulder wide) and lean forward. Your upper body is not quite parallel to the floor, but forms a slight angle. The chest's out during the whole exercise.</p>\n<p>Pull now the barbell with a fast movement towards your belly button, not further up. Go slowly down to the initial position. Don't swing with your body and keep your arms next to your body.</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.360668"], ["updated_at", "2020-03-23 21:40:43.360668"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Biceps Curls With Barbell"], ["description", "<p>Hold the Barbell shoulder-wide, the back is straight, the shoulders slightly back, the arms are streched. Bend the arms, bringing the weight up, with a fast movement. Without pausing, let down the bar with a slow and controlled movement.</p>\n<p>Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.369183"], ["updated_at", "2020-03-23 21:40:43.369183"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActivity Create (0.5ms)[0m  [1m[32mINSERT INTO "activities" ("name", "description", "activity_type", "resource", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["name", "Biceps Curls With Dumbbell"], ["description", "<p>Hold two barbells, the arms are streched, the hands are on your side, the palms face inwards. Bend the arms and bring the weight with a fast movement up. At the same time, rotate your arms by 90 degrees at the very beginning of the movement. At the highest point, rotate a little the weights further outwards. Without a pause, bring them down, slowly.</p>\n<p>Don't allow your body to swing during the exercise, all work is done by the biceps, which are the only mucles that should move (pay attention to the elbows).</p>"], ["activity_type", "Exercise"], ["resource", ""], ["image", "https://aptv.org/ulphoto/wpt_1389287397.jpg"], ["created_at", "2020-03-23 21:40:43.377893"], ["updated_at", "2020-03-23 21:40:43.377893"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/" for ::1 at 2020-03-23 15:41:13 -0600
+  [1m[35m (9.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/mikedelarosa/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/mikedelarosa/.rvm/gems/ruby-2.6.1/gems/railties-6.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 56.2ms | Allocations: 480)
+Completed 200 OK in 250ms (Views: 120.2ms | ActiveRecord: 0.0ms | Allocations: 2635)
+
+
+Started GET "/favicon.ico" for ::1 at 2020-03-23 15:41:15 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (6.0.2.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.2.2) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.2.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.2.2) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.2) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.2.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.2) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.2.2) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (6.0.2.2) lib/rails/engine.rb:526:in `call'
+puma (4.3.3) lib/puma/configuration.rb:228:in `call'
+puma (4.3.3) lib/puma/server.rb:682:in `handle_request'
+puma (4.3.3) lib/puma/server.rb:472:in `process_client'
+puma (4.3.3) lib/puma/server.rb:328:in `block in run'
+puma (4.3.3) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/activities" for ::1 at 2020-03-23 15:41:20 -0600
+Processing by ActivitiesController#index as HTML
+  [1m[36mActivity Load (7.2ms)[0m  [1m[34mSELECT "activities".* FROM "activities"[0m
+  ↳ app/controllers/activities_controller.rb:4:in `index'
+Completed 200 OK in 231ms (Views: 210.5ms | ActiveRecord: 9.6ms | Allocations: 14241)
+
+
