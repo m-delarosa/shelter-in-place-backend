@@ -10,21 +10,21 @@ Activity.destroy_all
 Activity.create(
     name: "Watch a Movie", 
     description: "We'll randomly select a movie for you to watch.",
-    type: "passive",
+    activity_type: "passive",
     resource: "Resource URL goes here ",
     image: "Movie URL image goes here"
 )
 Activity.create(
     name: "Do Pushups", 
     description: "Do three sets of ten pushups.",
-    type: "active",
+    activity_type: "active",
     resource: "Resource URL goes here ",
     image: "Movie URL image goes here"
 )
 Activity.create(
     name: "Solve a Rubik's Cube", 
     description: "Learn how to solve a Rubik's Cube.",
-    type: "skill",
+    activity_type: "skill",
     resource: "Resource URL goes here ",
     image: "Movie URL image goes here"
 )

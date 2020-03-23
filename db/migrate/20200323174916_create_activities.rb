@@ -3,7 +3,7 @@ class CreateActivities < ActiveRecord::Migration[6.0]
     create_table :activities do |t|
       t.string :name
       t.text :description
-      t.string :type
+      t.string :activity_type
       t.string :resource
       t.string :image
 
